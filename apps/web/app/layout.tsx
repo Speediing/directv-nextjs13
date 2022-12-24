@@ -7,7 +7,7 @@ const roboto = Roboto_Flex({
   variable: "--font-roboto",
 });
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: any) {
   return (
     <html lang="en">
       <head />
