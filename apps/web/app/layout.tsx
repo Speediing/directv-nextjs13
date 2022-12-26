@@ -14,11 +14,11 @@ export default function RootLayout({ children }: any) {
       <body className={`${roboto.className} text-[#102641]`}>
         <header className="border-b border-gray-200 font-light">
           <div>
-            <div className="flex flex-row justify-between mx-12 my-3 text-sm text-[#102641]">
+            <div className="flex flex-row justify-between mx-12 my-3 xl:text-base text-sm text-[#102641]">
               <div className="align-middle justify-center">
                 <p>
                   Call us: {"    "}
-                  <span className="font-bold underline">833.605.2025 </span>
+                  <span className=" font-bold underline">833.605.2025 </span>
                 </p>
               </div>
               <div className="flex flex-row">
@@ -35,20 +35,28 @@ export default function RootLayout({ children }: any) {
             </div>
           </div>
         </header>
-        <div className="h-24 flex flex-row justify-between mx-6 font-light">
-          <div className="mx-6 flex flex-col justify-center">STREAM</div>
-          <div className="mx-6 flex flex-col justify-center">SATELLITE</div>
+        <div className="h-24 flex flex-row xl:text-xl justify-between mx-6 font-light ">
+          <div className="mx-6 flex flex-col justify-center cursor-pointer">
+            STREAM
+          </div>
+          <div className="mx-6 flex flex-col justify-center cursor-pointer">
+            SATELLITE
+          </div>
           <div className="mx-6 flex flex-1 flex-row justify-center">
-            <div className="w-[175px] h-[80px] ml-10 pl-2">
+            <div className="w-[175px] h-[80px] ml-10 pl-2 cursor-pointer">
               <img
                 src="https://www.directv.com/dtvassets/global/logos/dtv/directv/directv_hz_rgb_pos.svg"
                 alt="DIRECTV home page"
               ></img>
             </div>
           </div>
-          <div className="mx-6 flex flex-col justify-center">SUPPORT</div>
-          <div className="mx-6 flex flex-col justify-center">SIGN-IN</div>
-          <div className="mx-6 flex flex-col justify-center">
+          <div className="mx-6 flex flex-col justify-center cursor-pointer">
+            SUPPORT
+          </div>
+          <div className="mx-6 flex flex-col justify-center  cursor-pointer">
+            SIGN-IN
+          </div>
+          <div className="mx-6 flex flex-col justify-center  cursor-pointer">
             <span className="w-6 h-6">
               <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
                 <path
