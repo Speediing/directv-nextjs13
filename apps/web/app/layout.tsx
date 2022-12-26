@@ -11,14 +11,14 @@ export default function RootLayout({ children }: any) {
   return (
     <html lang="en">
       <head />
-      <body className={roboto.className}>
+      <body className={`${roboto.className} text-[#102641]`}>
         <header className="border-b border-gray-200 font-light">
           <div>
             <div className="flex flex-row justify-between mx-12 my-3 text-sm text-[#102641]">
               <div className="align-middle justify-center">
                 <p>
                   Call us: {"    "}
-                  <span className="font-medium underline">833.605.2025 </span>
+                  <span className="font-bold underline">833.605.2025 </span>
                 </p>
               </div>
               <div className="flex flex-row">
