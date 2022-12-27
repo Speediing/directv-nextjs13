@@ -75,7 +75,7 @@ export default function Page() {
             with DIRECTV SATELLITE and DIRECTV STREAM.
           </h3>
         </div>
-        <div className="flex flex-row gap-4 justify-center my-4">
+        <div className="flex flex-row gap-4 justify-center mt-4 mb-12">
           <div className="pt-10 px-8 bg-[#112641] text-white rounded-md ">
             <h4 className="font-serif font-bold pb-8 text-base italic">
               DIRECTV SATELLITE
