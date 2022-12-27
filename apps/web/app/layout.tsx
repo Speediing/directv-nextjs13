@@ -18,7 +18,9 @@ export default function RootLayout({ children }: any) {
               <div className="align-middle justify-center">
                 <p>
                   Call us: {"    "}
-                  <span className=" font-bold underline">833.605.2025 </span>
+                  <span className=" font-semibold underline">
+                    833.605.2025{" "}
+                  </span>
                 </p>
               </div>
               <div className="flex flex-row">
