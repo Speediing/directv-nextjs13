@@ -11,6 +11,7 @@ const images = [
   "https://www.directv.com/dtvassets/sales/directv/upper_funnel/agnostic/hero-carousel/1304550-dtv-hero-caro_walkingdead.jpg",
   "https://www.directv.com/dtvassets/sales/directv/upper_funnel/stream/holiday_22/heroes/1378605-dtv-hero-caro_Merry_Swissmas.jpg",
 ];
+export const runtime = "experimental-edge";
 export const revalidate = 0;
 export default async function Page() {
   const shouldShowHeader = await get("shouldShowHeader");
