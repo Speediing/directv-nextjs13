@@ -119,5 +119,3 @@ export default async function Page() {
     </h1>
   );
 }
-
-export const runtime = "experimental-edge";
