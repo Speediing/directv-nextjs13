@@ -1,31 +1,12 @@
 import "../styles/globals.css";
 import { Roboto_Flex } from "@next/font/google";
-
+import { footerItems } from "ui";
 const roboto = Roboto_Flex({
   weight: ["300", "500", "700", "900"],
   subsets: ["latin"],
   variable: "--font-roboto",
 });
 
-const footerItems = [
-  "About DIRECTV",
-  "|",
-  "Careers",
-  "|",
-  "Legal policy center",
-  "|",
-  "Privacy center",
-  "|",
-  "Privacy Choices",
-  "|",
-  "Advertising choices",
-  "|",
-  "Site map",
-  "|",
-  "FCC public files",
-  "|",
-  "Accessibility",
-];
 export default function RootLayout({ children }: any) {
   return (
     <html lang="en">
