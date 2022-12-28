@@ -2,6 +2,7 @@ import Image from "next/image";
 import InfoHeader from "./InfoHeader";
 import left from "./leftimg.png";
 import right from "./rightimg.png";
+import { Button } from "ui";
 const images = [
   "https://directv.com/dtvassets/sales/directv/upper_funnel/stream/explore_stream_home/hero-carousel/hero-caro-dsk-fox-legomasters-2.jpg?noretina=true",
   "https://www.directv.com/dtvassets/sales/directv/upper_funnel/stream/explore_stream_home/hero-carousel/hero-caro-dsk-abc-livekellyandryan-2.jpg",
@@ -86,9 +87,7 @@ export default function Page() {
                 first-year price
               </h5>
             </div>
-            <button className="text-lg py-4 px-8 my-8 hover:bg-white hover:text-[#112641] rounded-full border border-white">
-              Learn More
-            </button>
+            <Button />
             <div className="flex flex-row justify-center mb-4">
               <Image alt="" width={500} height={350} src={left} />
             </div>
@@ -103,9 +102,7 @@ export default function Page() {
                 our device
               </h5>
             </div>
-            <button className="text-lg py-4 px-8 my-8 hover:bg-white hover:text-[#112641] rounded-full border border-white">
-              Learn More
-            </button>
+            <Button />
             <div className="flex flex-row justify-center mb-4">
               <Image alt="" width={500} height={350} src={right} />
             </div>
