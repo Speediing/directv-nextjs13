@@ -118,3 +118,4 @@ export default function RootLayout({ children }: any) {
     </html>
   );
 }
+export const runtime = "experimental-edge";
