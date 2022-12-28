@@ -1,7 +1,7 @@
 import Image from "next/image";
+import InfoHeader from "./InfoHeader";
 import left from "./leftimg.png";
 import right from "./rightimg.png";
-import { get } from "@vercel/edge-config";
 const images = [
   "https://directv.com/dtvassets/sales/directv/upper_funnel/stream/explore_stream_home/hero-carousel/hero-caro-dsk-fox-legomasters-2.jpg?noretina=true",
   "https://www.directv.com/dtvassets/sales/directv/upper_funnel/stream/explore_stream_home/hero-carousel/hero-caro-dsk-abc-livekellyandryan-2.jpg",
@@ -13,16 +13,11 @@ const images = [
 ];
 
 export const revalidate = 0;
-export default async function Page() {
-  const shouldShowHeader = await get("shouldShowHeader");
+export default function Page() {
   return (
     <h1>
-      {shouldShowHeader && (
-        <div className="h-24 bg-[#102641] text-white py-8 px-11 text-sm flex flex-col justify-center">
-          <p className="font-semibold">GET BACK IN THE GAME WITH DIRECTV</p>
-          <p>Missing the sports you love? DIRECTV has you covered.</p>
-        </div>
-      )}
+      {/* @ts-expect-error Server Component */}
+      <InfoHeader />
       <div className=" pt-[80px] xl:pt-[120px] flex flex-col justify-center text-center">
         <div className=" flex flex-row justify-center">
           <h2 className="text-xl xl:text-2xl font-thin">
