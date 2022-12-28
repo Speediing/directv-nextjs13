@@ -37,9 +37,7 @@ export default function RootLayout({ children }: any) {
               <div className="align-middle justify-center">
                 <p>
                   Call us: {"    "}
-                  <span className=" font-semibold underline">
-                    833.605.2025{" "}
-                  </span>
+                  <span className=" font-medium underline">833.605.2025 </span>
                 </p>
               </div>
               <div className="flex flex-row">
@@ -111,8 +109,6 @@ export default function RootLayout({ children }: any) {
           </p>
           <div className="flex flex-row justify-start text-sm mt-8 gap-3 font-light">
             {footerItems.map((x: any, i: any) => {
-              let ab = i % 2;
-              console.log(ab);
               if (i % 2 === 1) return <p className="text-gray-500">{x}</p>;
               return <p className="text-white cursor-pointer">{x}</p>;
             })}

@@ -48,6 +48,7 @@ importers:
       '@types/node': ^17.0.12
       '@types/react': ^18.0.22
       '@types/react-dom': ^18.0.7
+      '@vercel/edge-config': ^0.1.0
       autoprefixer: ^10.4.13
       eslint: 7.32.0
       eslint-config-custom: workspace:*
@@ -61,6 +62,7 @@ importers:
       ui: workspace:*
     dependencies:
       '@next/font': 13.1.1
+      '@vercel/edge-config': 0.1.0
       next: 13.1.0_7xlrwlvvs7cv2obrs6a5y6oxxq
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -755,6 +757,11 @@ packages:
     dependencies:
       '@typescript-eslint/types': 5.47.0
       eslint-visitor-keys: 3.3.0
+    dev: false
+
+  /@vercel/edge-config/0.1.0:
+    resolution: {integrity: sha512-1kN/09w5gjjWquXZGdVAavoB+VwF0RukdcIIuuTFtPPPQsl7IXa9KM3d04YLxKbp+VDQLVOaNmvLfkmVbMEW8A==}
+    engines: {node: '>=14.6'}
     dev: false
 
   /acorn-jsx/5.3.2_acorn@7.4.1:
