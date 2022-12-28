@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import { Roboto_Flex } from "@next/font/google";
 import { footerItems } from "ui";
+import { AnalyticsWrapper } from "./Analytics";
 const roboto = Roboto_Flex({
   weight: ["300", "500", "700", "900"],
   subsets: ["latin"],
@@ -68,6 +69,7 @@ export default function RootLayout({ children }: any) {
             </span>
           </div>
         </div>
+        <AnalyticsWrapper />
         <div>{children}</div>
         <footer className="py-20 bg-[#121212] px-32 xl:px-44 text-white">
           <span aria-hidden="true" className="fill-white">
