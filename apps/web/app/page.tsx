@@ -14,10 +14,10 @@ const images = [
 export const runtime = "experimental-edge";
 export const revalidate = 0;
 export default async function Page() {
-  const shouldShowHeader = await get("shouldShowHeader");
+  //   const shouldShowHeader = await get("shouldShowHeader");
   return (
     <h1>
-      {shouldShowHeader && (
+      {true && (
         <div className="h-24 bg-[#102641] text-white py-8 px-11 text-sm flex flex-col justify-center">
           <p className="font-semibold">GET BACK IN THE GAME WITH DIRECTV</p>
           <p>Missing the sports you love? DIRECTV has you covered.</p>
