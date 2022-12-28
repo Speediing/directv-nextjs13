@@ -34,8 +34,8 @@ export default function Page() {
           </h3>
         </div>
 
-        <div className="relative flex  flex-row mt-6">
-          <div className=" py-12 flex flex-row gap-4 w-screen max-w-screen overflow-x-hidden animate-marquee-infinite pr-2">
+        <div className="relative flex  flex-row mt-6 overflow-x-hidden">
+          <div className=" py-12 flex flex-row gap-4 w-screen max-w-screen overflow-x-hidden  animate-marquee-infinite pr-2">
             {images.map((x: any) => {
               return (
                 <Image
@@ -50,7 +50,7 @@ export default function Page() {
             })}
           </div>
 
-          <div className="absolute top-0  py-12 animate-marquee-infinite2 flex flex-row gap-4 w-screen justify-between pl-2">
+          <div className="absolute top-0  py-12 animate-marquee-infinite2 flex flex-row overflow-x-hidden gap-4 w-screen justify-between pl-2">
             {images.map((x: any) => {
               return (
                 <Image
