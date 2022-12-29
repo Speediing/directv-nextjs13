@@ -11,10 +11,7 @@ export default function Head() {
         property="og:description"
         content="Get from SEO newbie to SEO pro in 8 simple steps."
       />
-      <meta
-        property="og:image"
-        content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png"
-      />
+      <meta property="og:image" content="/api/og" />
 
       <link
         rel="shortcut icon"
