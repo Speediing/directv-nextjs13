@@ -29,7 +29,8 @@ export default async function OG() {
         }}
       >
         <div tw="bg-gray-50 flex w-full h-full flex flex-col justify-center">
-          <div tw="flex justify-center text-center flex-col w-full py-12 px-4 items-center justify-between p-8">
+          <div tw="flex justify-center text-center flex-col w-full py-4 px-4 items-center justify-between p-8">
+            <img src="https://www.directv.com/dtvassets/global/logos/dtv/directv/directv_hz_rgb_pos.svg" />
             <h2 tw="text-3xl font-thin">DIRECTV SATELLITE & DIRECTV STREAM</h2>
             <h2 style={{ fontFamily: "RobotoBold" }} tw=" text-6xl font-bold">
               DIRECTV brings the holidays home.
