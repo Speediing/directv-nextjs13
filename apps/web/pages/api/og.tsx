@@ -30,11 +30,19 @@ export default async function OG() {
       >
         <div tw="bg-white flex w-full h-full flex flex-col justify-center">
           <div tw="flex justify-center text-center flex-col w-full py-4 px-4 items-center justify-between p-8">
-            <img
-              tw="mt-24"
-              src="https://imagedelivery.net/SBiDhSEL5O7whXBpnfPxxw/6b16c945-6155-4a3f-d75a-ca3f561ca700/big"
-            />
-            <h2 tw="text-3xl font-thin">DIRECTV SATELLITE & DIRECTV STREAM</h2>
+            <div tw="mt-24 flex">
+              <svg
+                height={80}
+                viewBox="0 0 75 65"
+                fill="black"
+                style={{ margin: "0 0" }}
+              >
+                <path d="M37.59.25l36.95 64H.64l36.95-64z"></path>
+              </svg>
+            </div>
+            <h2 tw="text-3xl pt-14 font-thin">
+              DIRECTV SATELLITE & DIRECTV STREAM
+            </h2>
             <h2 style={{ fontFamily: "RobotoBold" }} tw=" text-6xl font-bold">
               DIRECTV brings the holidays home.
             </h2>
