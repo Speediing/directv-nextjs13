@@ -16,7 +16,10 @@ export default function Head() {
         content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png"
       />
 
-      <link rel="shortcut icon" href="./favicon.ico" />
+      <link
+        rel="shortcut icon"
+        href="https://directv-nextjs13-web.vercel.app/favicon.ico"
+      />
     </>
   );
 }
