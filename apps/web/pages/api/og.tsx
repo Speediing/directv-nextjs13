@@ -28,7 +28,7 @@ export default async function OG() {
           backgroundColor: "white",
         }}
       >
-        <div tw="bg-white flex w-full h-full flex flex-col justify-center">
+        <div tw="bg-[#FBFBFB] flex w-full h-full flex flex-col justify-center">
           <div tw="flex justify-center text-center flex-col w-full py-4 px-4 items-center justify-between p-8">
             <div tw="mt-24 flex">
               <svg
