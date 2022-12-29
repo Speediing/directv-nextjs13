@@ -28,9 +28,12 @@ export default async function OG() {
           backgroundColor: "white",
         }}
       >
-        <div tw="bg-gray-50 flex w-full h-full flex flex-col justify-center">
+        <div tw="bg-white flex w-full h-full flex flex-col justify-center">
           <div tw="flex justify-center text-center flex-col w-full py-4 px-4 items-center justify-between p-8">
-            <img src="https://www.directv.com/dtvassets/global/logos/dtv/directv/directv_hz_rgb_pos.svg" />
+            <img
+              tw="mt-24"
+              src="https://imagedelivery.net/SBiDhSEL5O7whXBpnfPxxw/6b16c945-6155-4a3f-d75a-ca3f561ca700/big"
+            />
             <h2 tw="text-3xl font-thin">DIRECTV SATELLITE & DIRECTV STREAM</h2>
             <h2 style={{ fontFamily: "RobotoBold" }} tw=" text-6xl font-bold">
               DIRECTV brings the holidays home.
@@ -40,6 +43,10 @@ export default async function OG() {
               without compromise.
             </h2>
           </div>
+          <img
+            tw="w-[100%]"
+            src="https://imagedelivery.net/SBiDhSEL5O7whXBpnfPxxw/e64f386a-7252-40d7-a787-7f797b500000/big"
+          />
         </div>
       </div>
     ),

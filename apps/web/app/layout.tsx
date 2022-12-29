@@ -13,7 +13,7 @@ export default function RootLayout({ children }: any) {
     <html lang="en">
       <head />
       <body className={`${roboto.className} text-[#102641]`}>
-        <header className="border-b w-[10%] h-[10%] border-gray-200 font-light">
+        <header className="border-b border-gray-200 font-light">
           <div>
             <div className="flex flex-row justify-between mx-12 my-3 xl:text-base text-sm text-[#102641]">
               <div className="align-middle justify-center">
