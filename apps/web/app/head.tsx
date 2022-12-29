@@ -3,13 +3,10 @@ export default function Head() {
     <>
       <title>Directv</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta
-        property="og:title"
-        content="How to Become an SEO Expert (8 Steps)"
-      />
+      <meta property="og:title" content="DIRECTV Streaming" />
       <meta
         property="og:description"
-        content="Get from SEO newbie to SEO pro in 8 simple steps."
+        content="The best way to get all your favourite channels direct to your home!"
       />
       <meta property="og:image" content="/api/og" />
 
