@@ -30,15 +30,24 @@ export default async function OG() {
       >
         <div tw="bg-[#FBFBFB] flex w-full h-full flex flex-col justify-center">
           <div tw="flex justify-center text-center flex-col w-full py-4 px-4 items-center justify-between p-8">
-            <div tw="mt-24 flex">
-              <svg
-                height={80}
-                viewBox="0 0 75 65"
-                fill="black"
-                style={{ margin: "0 0" }}
-              >
-                <path d="M37.59.25l36.95 64H.64l36.95-64z"></path>
-              </svg>
+            <div tw="flex flex-row justify-between gap-24">
+              <div tw="mt-22 flex">
+                <svg
+                  height={65}
+                  viewBox="0 0 75 65"
+                  fill="black"
+                  style={{ margin: "0 0" }}
+                >
+                  <path d="M37.59.25l36.95 64H.64l36.95-64z"></path>
+                </svg>
+              </div>
+              <div tw="flex flex-col justify-center h-full">
+                <h2 tw="text-3xl font-thin mt-24 mx-12">+</h2>
+              </div>
+              <img
+                tw="w-[80px] h-[70px] mt-22"
+                src="https://imagedelivery.net/SBiDhSEL5O7whXBpnfPxxw/417aa4a4-63e5-4809-a4e1-20d46e0e3600/big"
+              />
             </div>
             <h2 tw="text-3xl pt-14 font-thin">
               DIRECTV SATELLITE & DIRECTV STREAM
