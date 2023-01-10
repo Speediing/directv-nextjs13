@@ -23,7 +23,7 @@ export default function RootLayout({ children }: any) {
                 </p>
               </div>
               <div className="flex flex-row">
-                <p>DIRECTV - BUSINESS TV!</p>
+                <p>DIRECTV - BUSINESS TV!!</p>
                 <div className="flex flex-col justify-center ">
                   <div className="w-4 h-4">
                     <img
